@@ -1,0 +1,45 @@
+POST http://localhost:8080/wishlist
+Content-Type: application/json
+
+{
+
+  "wishListID" : "wl001",
+  "itmID" : "itm020",
+  "itmName" : "bear",
+  "itmCategory": "toy",
+  "itmPrice" : "500.00"
+
+}
+
+<> 2021-05-19T150411.200.json
+
+###
+
+POST http://localhost:8181/cart
+Content-Type: application/json
+
+{
+  "cartID": "c010",
+  "itemID": "itm030",
+  "itemPrice": "500.00",
+  "userId": "uid0030"
+}
+
+<> 2021-05-19T145845.200.json
+
+###
+
+POST http://localhost:8181/cart
+Content-Type: application/json
+
+{
+  "cartID": "c010",
+  "itemID": "itm030",
+  "itemPrice": "500.00",
+  "userId": "uid0030"
+}
+
+<> 2021-05-19T145115.500.json
+
+###
+
